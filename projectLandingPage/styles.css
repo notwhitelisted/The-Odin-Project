@@ -1,3 +1,20 @@
-body {
-    background-color: rgb(238, 203, 150);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #1f2937;
+}
+
+.body {
+    background-color: #fff; 
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-author {
+    color: #1f2937;
 }
