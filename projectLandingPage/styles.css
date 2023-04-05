@@ -29,6 +29,13 @@ a {
     padding-top: 1rem;
 }
 
+.header-text {
+    padding-bottom: 5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5rem;
+}
+
 .header-main-text {
     color: #fff;
     display: flex;
@@ -84,7 +91,6 @@ a {
     font-size: 18px;
     font-weight: bold;
     color: #1f2937;
-    float: right;
 }
 
 .sign-up {
@@ -97,11 +103,11 @@ a {
 .blue-background {
     background-color: #3882f6;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 12%;
+    padding-right: 12%;
     display: flex;
 }
 
