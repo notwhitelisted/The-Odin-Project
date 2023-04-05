@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* NAV HEADER */
 .nav {
     background-color: #1f2937;
 }
@@ -29,6 +30,7 @@ a {
     padding-top: 1rem;
 }
 
+/* HEADER */
 .header-text {
     padding-bottom: 5rem;
     padding-left: 15%;
@@ -55,6 +57,7 @@ a {
     padding-bottom: 6px;
 }
 
+/* IMAGE */
 .body {
     background-color: #fff; 
 }
@@ -73,6 +76,7 @@ a {
     border-radius: 6px;
 }
 
+/* QUOTE */
 .quote {
     background-color: #e5e7eb;
     padding-top: 5rem;
@@ -93,22 +97,34 @@ a {
     color: #1f2937;
 }
 
+/* SIGN UP CONTENT */
 .sign-up {
-    background-color: #fff;
+    background-color: #3882f6;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 6px;
+    border-color: none;
+    padding: 10px 200px;
+    margin: 50px 200px;
 }
 
-.blue-background {
-    background-color: #3882f6;
-    padding: 30px;
-    border-radius: 8px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding-left: 12%;
-    padding-right: 12%;
-    display: flex;
+.sign-item {
+    flex: 1;
+}
+
+.sign-text {
+    text-align: left;
+}
+
+.sign-text p {
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    padding: 0;
+    margin: 30px 0px 0px 50px;
 }
 
 .sign-up-header {
@@ -116,22 +132,21 @@ a {
 }
 
 .sign-up-paragraph {
-    color: #e5e7eb;
-}
-
-.sign-up-btn {
-    background-color: #3882f6;
-    border-radius: 6px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 1.5px;
     color: #fff;
 }
 
+.sign-button button {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    margin: 3rem 15rem;
+    color: #fff;
+}
+
+/* FOOTER */
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
