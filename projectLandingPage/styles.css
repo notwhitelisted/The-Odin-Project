@@ -89,12 +89,20 @@ a {
 
 .sign-up {
     background-color: #fff;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blue-background {
     background-color: #3882f6;
     padding: 30px;
+    border-radius: 10px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 18%;
+    padding-right: 18%;
+    display: flex;
 }
 
 .sign-up-header {
@@ -113,6 +121,8 @@ a {
     padding-top: 2px;
     padding-bottom: 2px;
     border-color: #fff;
+    border-style: solid;
+    border-width: 1.5px;
     color: #fff;
 }
 
