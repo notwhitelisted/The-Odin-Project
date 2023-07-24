@@ -1,0 +1,43 @@
+body {
+    background-color: #BD9A7A;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 475px;
+    height: auto;
+}
+
+.description {
+    padding-left: 39%;
+    padding-right: 39%;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients, .steps {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps {
+    padding-left: 40%;
+    padding-right: 40%;
+    list-style-type: none;
+}
