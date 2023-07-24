@@ -1,0 +1,42 @@
+body {
+    background-color: salmon;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spicymayo {
+    width: 600px;
+    height: auto;
+}
+
+.description {
+    padding-left: 37%;
+    padding-right: 37%;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, ol {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+ol {
+    padding-left: 35%;
+    padding-right: 15%;
+}
